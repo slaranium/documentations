@@ -6,26 +6,26 @@ export default defineConfig({
   site: 'https://louisescher.github.io',
   base: '/starlight-ion-theme',
   integrations: [starlight({
-    title: 'Ion Theme',
+    title: 'StringLabs',
     logo: {
-      src: './src/assets/ion-logo.svg'
+      src: './src/assets/stringlogo.png'
     },
     social: {
-      github: 'https://github.com/comet-analytics/ion-theme'
+      github: 'https://github.com/slaranium',
+      twitter: 'https://x.com/slaranium',
+      telegram: 'https://t.me/slarahimura'
     },
     sidebar: [{
       label: '[home] Home',
       link: '/'
-    }, {
-      label: '[list] Features',
-      link: '/features/'
-    }, {
-      label: '[box] Guides',
+    }
+    , {
+      label: '[box] TESTNET',
       autogenerate: {
         directory: 'guides'
       }
     }, {
-      label: '[book] Reference',
+      label: '[book] MONITORING',
       autogenerate: {
         directory: 'reference'
       }

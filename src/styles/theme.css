@@ -138,7 +138,8 @@ header.header {
 /* Link styles */
 a:not(.sidebar a) {
   transition: color 0.1s ease;
-  width: fit-content;
+  width: -moz-fit-content; /* Fallback untuk Firefox */
+  width: fit-content;      /* Untuk browser lainnya */
 }
 
 /* Make sure mobile links fill the entire space, not just fit the content */
